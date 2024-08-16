@@ -1,0 +1,15 @@
+.assign-menu {
+    width: 320px;
+}
+
+.assign-comment {
+    width: 584px;
+
+    .hovered-icon {
+        &:hover {
+            color: $warning;
+            font-variation-settings:
+                'FILL' 1
+        }
+    }
+}

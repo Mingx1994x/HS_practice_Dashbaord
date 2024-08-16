@@ -1,0 +1,14 @@
+main {
+  width: calc(100% - 296px);
+  margin-left: auto;
+}
+
+.content {
+  max-width: 918px;
+  margin: 0 auto;
+
+  .subText {
+    font-size: 12px;
+    line-height: 2;
+  }
+}

@@ -1,0 +1,89 @@
+<aside
+  class="navbar navbar-expand-lg bg-body-tertiary vh-100 d-flex flex-column jusify-content-start py-c5 position-fixed"
+>
+  <div class="container-fluid d-flex flex-column align-items-start h-100 ps-0">
+    <a class="navbar-brand ms-c5 mb-c5" href="./index.html">
+      <img src="../assets/images/logo-ANSWER.svg" alt="logo-ANSWER" />
+    </a>
+    <ul class="navbar-nav d-flex flex-column fw-bold">
+      <li class="nav-item mb-2">
+        <a
+          class="nav-link <%= page === 'index' ? 'link-active' : '' %>"
+          aria-current="page"
+          href="./index.html"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            add_chart </span
+          >Dashboard</a
+        >
+      </li>
+      <li class="nav-item mb-2">
+        <a class="nav-link" href="#"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            forum </span
+          >Question</a
+        >
+      </li>
+      <li class="nav-item mb-2">
+        <a
+          class="nav-link <%= page === 'Assignment' ? 'link-active' : '' %>"
+          href="../pages/Assignment.html"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            assignment </span
+          >Assignment</a
+        >
+      </li>
+      <li class="nav-item mb-2">
+        <a class="nav-link" href="#"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            video_library </span
+          >Course</a
+        >
+      </li>
+      <li class="nav-item mb-2">
+        <a
+          class="nav-link <%= page === 'Admin' ? 'link-active' : '' %>"
+          href="../pages/Admin.html"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            group </span
+          >Admin</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><span
+            class="material-symbols-outlined filled-icon align-bottom me-3"
+          >
+            settings </span
+          >Settings</a
+        >
+      </li>
+    </ul>
+
+    <div class="userInfo d-flex align-items-center ps-c5 mt-auto">
+      <div class="flex-shrink-0">
+        <img
+          src="../assets/images/andychen.jpeg"
+          class="img-fluid rounded-circle object-fit-cover"
+          alt="andychen"
+          style="height: 40px; width: 40px"
+        />
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <h5 class="fs-6 fw-bold">Andy Chen</h5>
+        <a href="mailto:andy0401@mail.com" class="link-secondary"
+          >andy0401@mail.com</a
+        >
+      </div>
+    </div>
+  </div>
+</aside>
